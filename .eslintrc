@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "plugin:@coorpacademy/coorpacademy/core",
+    "plugin:@coorpacademy/coorpacademy/es20XX",
+    "plugin:@coorpacademy/coorpacademy/lodash-fp",
+    "plugin:@coorpacademy/coorpacademy/prettier",
+    "plugin:@coorpacademy/coorpacademy/react",
+    "plugin:@coorpacademy/coorpacademy/flowtype"
+  ],
+  "plugins": [
+    "@coorpacademy/coorpacademy"
+  ],
+  "rules": {
+    "class-methods-use-this": "off",
+    "import/no-anonymous-default-export": "off",
+    "fp/no-class": "off",
+    "react/prefer-stateless-function": ["on", { "ignorePureComponents": "on" }],
+    "unicorn/filename-case": "off"
+  }
+}
